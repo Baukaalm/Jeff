@@ -1,0 +1,51 @@
+.hero {
+    min-height: 1322px;
+    background-color: $c-blue;
+  }
+  .hero__title {
+    font-size: 36px;
+    line-height: 34px;
+    color: $c-gold;
+  }
+  .hero__wrapper {
+    width: 452px;
+  }
+  .hero__description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: $c-gold;
+  }
+  .hero__image {
+    padding-bottom: 40px;
+  }
+  .hero__border {
+    width: 60px;
+    height: 2px;
+    left: 161px;
+    top: 472px;
+    margin: 20px 0;
+    background: $c-gold;
+    border-radius: 2px;
+  }
+  .hero_tagline {
+    font-size: 36px;
+    line-height: 38px;
+    color: $c-gold;
+  }
+  
+  .hero_exclusive {
+    margin-top: -40px;
+    width: 100%;
+    position: relative;
+    border: 5px solid $c-gold;
+  }
+  .hero_decorated {
+    margin: 3px;
+    border: 2px solid $c-gold;
+  }
+  .hero_tagline {
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 81px;
+  }
