@@ -10,6 +10,19 @@ $c-blue: #192136;
   font-weight: 400;
   src: url(../fonts/ArnoPro-LightDisplay.otf) format("opentype");
 }
+@font-face {
+  font-family: "ArnoPro-LightDisplay";
+  font-style: bold;
+  font-weight: 600;
+  src: url(../fonts/ArnoPro-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "ArnoPro-LightDisplay";
+  font-style: bold;
+  font-weight: 500;
+  src: url(../fonts/ArnoPro-BoldDisplay.otf.otf) format("opentype");
+}
 
 body {
   font-family: $font-stack;
@@ -17,7 +30,7 @@ body {
 }
 
 .layout-center-wrapper {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 
   &.--hero {
@@ -33,5 +46,27 @@ body {
   }
 }
 
-@import "blocks";
+.--bold {
+  font-weight: 600;
+}
 
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button {
+  @include button-reset;
+  padding: 18px 15px;
+  text-transform: uppercase;
+  background: #49577d;
+  font-weight: 500; 
+  font-size: 12px;
+  line-height: 8px;
+}
+
+@import "blocks";

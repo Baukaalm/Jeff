@@ -1,0 +1,25 @@
+.bag {
+  background-color: $c-blue;
+  padding-bottom: 177px;
+}
+
+.bag__box {
+  width: 100%;
+  min-height: 449px;
+  position: relative;
+  border: 2px dashed $c-gold;
+}
+.bag__image {
+    position: absolute;
+    left:-150px;
+    top:26px
+}
+.bag__description {
+  font-size: 18px;
+  line-height: 18px;
+  padding-left: 420px;
+  padding-top: 101px;
+  padding-right: 95px;
+  align-items: center;
+  color: #d7ac82;
+}
