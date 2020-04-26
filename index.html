@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="//unpkg.com/swiper/css/swiper.min.css" />
     <link rel="stylesheet" href="css/style.bundle.css" />
     <title>Jeff</title>
   </head>
@@ -121,14 +122,37 @@
     </section>
     <section class="exclusive">
       <div class="layout-center-wrapper">
-        <img width="60" height="70" class="exclusive__image" src="img/logo_jeff.png" />
-        <h2 class="exclusive__title">Эксклюзивный<br />пошив костюмов<br />по технологии BESPOKE</h2>
-        <div class="exclusive__border"></div>
-        <div class="exclusive__desc">
-          У нас Вы можете приобрести оригинальный и<br />стильный подарок - СЕРТИФИКАТ на<br />индивидуальный пошив
-          элегантной одежды!<br /><br />Обладатель подарочного сертификата сможет<br />заказать в нашем портновском доме
-          любую вещь<br />или использовать его в качестве скидки.
+        <div class="exclusive__blocks">
+          <div class="exclusive__block">
+            <img width="60" height="70" class="exclusive__image" src="img/logo_jeff.png" />
+            <h2 class="exclusive__title">Эксклюзивный<br />пошив костюмов<br />по технологии BESPOKE</h2>
+            <div class="exclusive__border"></div>
+            <div class="exclusive__desc">
+              У нас Вы можете приобрести оригинальный и<br />стильный подарок - СЕРТИФИКАТ на<br />индивидуальный пошив
+              элегантной одежды!<br /><br />Обладатель подарочного сертификата сможет<br />заказать в нашем портновском
+              доме любую вещь<br />или использовать его в качестве скидки.
+            </div>
+            <button type="button">Оформить сертификат</button>
+          </div>
+          <div class="exclusive__block">
+            <img class="exclusive__card" width="809" height="688" src="img/visit_card.png" />
+          </div>
         </div>
+      </div>
+    </section>
+    <section class="actual">
+      <div class="layout-center-wrapper --actual">
+        <h2 class="actual__title"><span>Актуальное</span></h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img width="240" height="240" src="img/slider_image_1.png" /></div>
+            <div class="swiper-slide"><img width="240" height="240" src="img/slider_image_2.png" /></div>
+            <div class="swiper-slide"><img width="240" height="240" src="img/slider_image_3.png" /></div>
+          </div>
+        </div>
+        <div class="swiper-control swiper-prev"></div>
+        <div class="swiper-control swiper-next"></div>
+        <div class="actual__border"></div>
       </div>
     </section>
     <footer>Bauyrzhan</footer>
