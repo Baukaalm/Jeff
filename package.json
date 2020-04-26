@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
-    "reset-css": "^5.0.1"
+    "reset-css": "^5.0.1",
+    "swiper": "^5.3.8"
   }
 }

@@ -2,13 +2,18 @@
   background-color: $c-blue;
   color: $c-gold;
 }
+.exclusive__blocks {
+  position: relative; 
+}
 .exclusive__title {
   font-size: 36px;
   line-height: 34px;
+  margin-top: 40px;
 }
 .exclusive__desc {
   font-size: 18px;
   line-height: 18px;
+  margin-bottom: 60px;
 }
 .exclusive__border {
   width: 60px;
@@ -18,3 +23,10 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+.exclusive__card {
+  position: absolute;
+  right:-180px;
+  top:-100px
+}
+
