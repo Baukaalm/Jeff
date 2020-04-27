@@ -1,6 +1,6 @@
 .hero {
-    min-height: 1322px;
     background-color: $c-blue;
+    padding-bottom: 197px;
   }
   .hero__title {
     font-size: 36px;
@@ -9,6 +9,15 @@
   }
   .hero__wrapper {
     width: 452px;
+    padding-top: 240px;
+    position: relative;
+    z-index: 100;
+    padding-bottom: 200px;
+  }
+  .hero__picture {
+    position: absolute;
+    top: 103px;
+    right: -55px;
   }
   .hero__description {
     font-weight: 300;
@@ -35,7 +44,6 @@
   }
   
   .hero_exclusive {
-    margin-top: -40px;
     width: 100%;
     position: relative;
     border: 5px solid $c-gold;

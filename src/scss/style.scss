@@ -32,14 +32,10 @@ body {
 
 .layout-center-wrapper {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto; 
 
   &.--hero {
-    background-image: url("../img/hero_section.jpg");
-    background-repeat: no-repeat;
-    background-position: 130% center;
-    background-size: 80% 80%;
-    padding: 240px 0;
+    position: relative;
   }
 
   &.--relative {
