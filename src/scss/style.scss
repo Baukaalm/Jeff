@@ -27,6 +27,7 @@ $c-blue: #192136;
 body {
   font-family: $font-stack;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .layout-center-wrapper {
